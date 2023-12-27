@@ -1,5 +1,5 @@
-from src.app import ma
-from src.models.user import User
+from ..helper import ma
+from ..models.user import User
 
 
 # Create a Marshmallow schema for the User model

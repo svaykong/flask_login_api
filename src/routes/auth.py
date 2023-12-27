@@ -2,8 +2,8 @@ import json
 
 from flask import Blueprint, request, Response
 
-from src.models.user import User
-from src.schema.user_schema import UserSchema
+from ..models.user import User
+from ..schema.user_schema import UserSchema
 
 auth = Blueprint('auth', __name__)
 
